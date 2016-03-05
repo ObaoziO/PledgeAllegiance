@@ -33,7 +33,7 @@
     <feature name="Keyboard">
         <param name="ios-package" onload="true" value="IonicKeyboard" />
     </feature>
-    <name>PledgeAllegiance</name>
+    <name>The Pledge of Allegiance</name>
     <description>
         A simple mobile application that contains the Pledge of Allegiance.
     </description>
