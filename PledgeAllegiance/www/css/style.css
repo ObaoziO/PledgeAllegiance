@@ -26,10 +26,68 @@ ion-header-bar h1{
 }
 .title{
   font-family: 'Rochester', cursive;
-  font-size: 20pt;
+  font-size: 25pt;
+  font-weight: bold;
 }
 p{
   font-family: 'Lateef';
   font-size: 20pt;
   line-height: 130%;
+}
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait */
+/*@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .title{
+    font-size: 18pt;
+  }
+  p{
+    font-size: 18pt;
+  }
+}*/
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .title{
+      font-size: 35pt;
+      /*color: red !important;*/
+    }
+    p{
+      font-size: 30pt;
+    }
+}
+/* ----------- iPhone 4 and 4S ----------- */
+/* Protrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
+  .title{
+    font-size: 18pt;
+    /*background: purple;*/
+  }
+  p{
+    font-size: 18pt;
+  }
+}
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  .title{
+    font-size: 30pt;
+    /*color: red !important;*/
+  }
+  p{
+    font-size: 20pt;
+  }
 }
