@@ -22,14 +22,14 @@ ion-header-bar h1{
   border-radius: 5px;
 }
 #content{
-  margin-top: 2%;
+  margin-top: 5%;
 }
 .title{
   font-family: 'Rochester', cursive;
-  font-size: 25pt;
+  font-size: 20pt;
 }
 p{
   font-family: 'Lateef';
-  font-size: 25pt;
-  line-height: 150%;
+  font-size: 20pt;
+  line-height: 130%;
 }
